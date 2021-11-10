@@ -36,8 +36,13 @@
 
 # Unless Statements
 
+# puts "What is your age?"
+# age = gets.chomp.to_i
+# unless age <= 17
+#   puts "Get a job ya bum!"
+# end
+
 puts "What is your age?"
 age = gets.chomp.to_i
-unless age <= 17
-  puts "Get a job ya bum!"
-end
+response = age < 30 ? "Have fun and travel while you still have the time and energy!" : "Be prepared for back aches, poor sleep, and money worries!"
+puts response
