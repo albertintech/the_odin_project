@@ -1,6 +1,6 @@
 def even_odd(number)
   unless number.is_a? Numeric
-    return "A number was not entered. Try again."
+    return "A number was not entered. Try again." # Explicit return
   end
 
   if number % 2 == 0
